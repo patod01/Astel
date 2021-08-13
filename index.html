@@ -3,48 +3,45 @@
 <head>
 	<meta charset="utf-8">
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-	<title>Astel</title>
+	<link rel="stylesheet" type="text/css" href="app/css/a.css">
+     <title>Astel</title>
 </head>
 <body>
 
-	<p>
-		In the name of my beloved. Angeles <3
-	</p>
+<h1>Astel</h1>
+
+<div class="remnants">
+     <p style="color: white;">
+     	In the name of my beloved. Angeles <3
+     </p>
 
      <button id="on-off">on/off</button>
      <button id="add">add</button>
      <div id="contenedor">
-          <p>hola, erajngf</p>
-          <p>
-               asdf,asdf
-               asdf
-          </p>          
+          <p>hola, erajngf <br>
+          hide me know!!</p>
+          <a href="./src/197420170.pdf" download="lalala">
+               link de prueba
+          </a>
      </div>
-     <button id="lel" pete="nel">useless</button>
+</div>
+
+
+
+<div class="pdf-container">
+     <p>
+          Ingrese RUT completo sin signos.<br>
+          <i>Ej.: 10123123k</i>
+     </p>
+
+     <input id="rut-field" type="text" name="pleple">
+     <button id="pdf-button" pete="nel">generar pdf</button>
+
+     <div id="pdf-spawn"></div>
+</div>
+
      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-     <script type="text/javascript" src="./assets/js/Astel.js"></script>
-
-     <script type="text/javascript">
-          $('p').click(function(){
-               console.log('hola')
-          })
-
-          $("#on-off").click(function(){
-               $("#contenedor").toggle()
-          })
-
-          $("#add").click(function(){
-               $("#contenedor").addClass("container")
-          })
-
-          $("#add").hover(function(){
-               console.log('nanii')
-          })
-
-          $('[pete="nel"').click(function(){
-               console.log('wanna be my Queen?!!')
-          })
-     </script>
+     <script type="text/javascript" src="./app/js/Astel.js"></script>
 </body>
 </html>

@@ -1,0 +1,12 @@
+h1 {
+     font-family: monospace;
+     color: darkcyan;
+}
+
+.pdf-container {
+     text-align: center;
+}
+
+.pdf-container a {
+     border: 2px solid;
+}
